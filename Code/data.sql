@@ -8,8 +8,19 @@ CREATE TABLE PHIEUBAU
 ) 
 TABLESPACE DOAN;
 
+CREATE TABLE KEY_STORE 
+(
+  ID VARCHAR2(10) NOT NULL 
+, VALUE RAW(2000) 
+, BYTE_NUM NUMBER 
+)
+TABLESPACE DOAN;
+
 INSERT INTO PHIEUBAU
-(ma_phieubau,UCV1,UCV2,UCV3) VALUES ('1','A','B','C'); 
+(ma_phieubau,UCV1,UCV2,UCV3) VALUES ('1','A','B','C');
+
+INSERT INTO KEY_STORE
+(id,value,byte_num) VALUES ('1',dbms_crypto.randombytes(16),16);
 
 dbms_output.put_line(encrypt_data(in_data => UTL_I18N.STRING_TO_RAW('ABC','AL32UTF8')));
 BEGIN
