@@ -16,13 +16,16 @@ CREATE TABLE KEY_STORE
 )
 TABLESPACE DOAN;
 
-INSERT INTO PHIEUBAU
-(ma_phieubau,UCV1,UCV2,UCV3) VALUES ('1','A','B','C');
+--INSERT INTO KEY_STORE
+--(id,value) VALUES ('A',dbms_crypto.randombytes(16));
 
-INSERT INTO KEY_STORE
-(id,value,byte_num) VALUES ('1',dbms_crypto.randombytes(16),16);
+--INSERT INTO PHIEUBAU VALUES ('1','1','A','B','C');
 
-dbms_output.put_line(encrypt_data(in_data => UTL_I18N.STRING_TO_RAW('ABC','AL32UTF8')));
+DECLARE
+  m_key RAW(16);
 BEGIN
-dbms_output.put_line(encrypt_data(in_data => UTL_I18N.STRING_TO_RAW('ABC','AL32UTF8')));
+  select password into m_key from sys.user$ where name = 'QLBINHBAU';
+  dbms_output.put_line(encrypt_data(  in_data => UTL_I18N.STRING_TO_RAW('ABC','AL32UTF8'),
+                                    in_key  => m_key
+                                  ));
 END;

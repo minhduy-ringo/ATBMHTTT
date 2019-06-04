@@ -37,7 +37,9 @@ create or replace TRIGGER alter_phieubau_trigger
     FOR EACH ROW
 declare
     encrypted_data RAW(2000);
+    m_key RAW(16);
 BEGIN
+    --select password into m_key from sys.user$ where name = 'QLBINHBAU';
     encrypted_data := encrypt_data(in_data => UTL_I18N.STRING_TO_RAW(:new.UCV1,'AL32UTF8'));
     :new.UCV1 := UTL_RAW.CAST_TO_VARCHAR2(encrypted_data);
     encrypted_data := encrypt_data(in_data => UTL_I18N.STRING_TO_RAW(:new.UCV2,'AL32UTF8'));
