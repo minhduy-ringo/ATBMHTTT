@@ -1,3 +1,7 @@
+/*--------------------------------------------------------------------------------
+    Tạo các bảng dữ liệu cho cơ sở dữ liệu bình bầu
+*/--------------------------------------------------------------------------------
+
 Create table CHINHANH
 (
     MA_CHINHANH number(5) NOT NULL,
@@ -108,7 +112,7 @@ FOREIGN KEY (CHINHANH) REFERENCES CHINHANH(MA_CHINHANH);
 
 ALTER TABLE DONVI
 ADD CONSTRAINT FK_DONVI
-FOREIGN KEY (TRUONGDONVI) REFERENCES DONVI(DONVI);
+FOREIGN KEY (TRUONGDONVI) REFERENCES DONVI(MA_DONVI);
 
 ALTER TABLE TO_LAP
 ADD CONSTRAINT FK_TOLAP_DONVI
