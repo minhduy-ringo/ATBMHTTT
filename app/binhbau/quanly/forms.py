@@ -8,3 +8,7 @@ class ThemUcv(ModelForm):
         model = Ungcuvien
         fields = ('ma_ucv',)
 
+class ThemCutri(ModelForm):
+    class Meta:
+        model = Ungcuvien
+        fields = ('ma_ucv',)

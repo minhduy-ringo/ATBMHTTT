@@ -36,6 +36,21 @@ class Thanhvien(models.Model):
         managed = False
         db_table = 'thanhvien'
 
+class Cutri(models.Model):
+    ma_thanhvien = models.OneToOneField('Thanhvien', models.DO_NOTHING, db_column='ma_cutri', primary_key=True)
+    hoten = models.CharField(max_length=50, blank=True, null=True, verbose_name='Họ và tên')
+    gioitinh = models.CharField(max_length=3, blank=True, null=True, verbose_name='Giới tính')
+    quequan = models.CharField(max_length=100, blank=True, null=True, verbose_name='Quê quán')
+    namsinh = models.CharField(max_length=4, blank=True, null=True, verbose_name='Năm sinh')
+    quoctich = models.CharField(max_length=20, blank=True, null=True, verbose_name='Quốc tịch')
+    diachi = models.CharField(max_length=100, blank=True, null=True, verbose_name='Địa chỉ')
+    donvi = models.ForeignKey(Donvi, models.DO_NOTHING, db_column='donvi', blank=True, null=True, verbose_name='Đơn vị')
+    chinhanh = models.ForeignKey(Chinhanh, models.DO_NOTHING, db_column='chinhanh', blank=True, null=True, verbose_name='Chi nhánh')
+
+    class Meta:
+        managed = False
+        db_table = 'cutri'
+
 class Btc(models.Model):
     ma_btc = models.OneToOneField('Thanhvien', models.DO_NOTHING, db_column='ma_btc', primary_key=True)
     hoten = models.CharField(max_length=50, blank=True, null=True)

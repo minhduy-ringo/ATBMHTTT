@@ -3,14 +3,51 @@
 */------------------------------------------------------------------------
 CREATE ROLE NHANVIEN;
 CREATE ROLE BTC;
-CREATE ROLE LAPDS;
+CREATE ROLE TOLAP;
 CREATE ROLE THEODOIKQ;
 CREATE ROLE GIAMSAT;
 
 /*------------------------------------------------------------------------
-    Cấp quyền cho role nhân viên
+    Cấp quyền cho role NHANVIEN
 */------------------------------------------------------------------------
 GRANT CREATE SESSION TO NHANVIEN;
+GRANT SELECT ON THANHVIEN TO NHANVIEN;
+
+/*------------------------------------------------------------------------
+    Cấp quyền cho role BTC
+*/------------------------------------------------------------------------
+GRANT SELECT, INSERT, UPDATE ON UNGCUVIEN TO BTC;
+GRANT SELECT, INSERT, UPDATE ON GIAMSAT TO BTC;
+GRANT SELECT, INSERT, UPDATE ON TO_LAP TO BTC;
+GRANT SELECT, INSERT, UPDATE ON THEODOI TO BTC;
+
+/*------------------------------------------------------------------------
+    Cấp quyền cho role TOLAP
+*/------------------------------------------------------------------------
+GRANT SELECT ON THANHVIEN TO TOLAP
+GRANT SELECT, UPDATE on CUTRI TO TOLAP
+
+/*------------------------------------------------------------------------
+    Cấp quyền cho role THEODOIKQ
+*/------------------------------------------------------------------------
+GRANT SELECT ON PHIEUBAU TO THEODOIKQ;
+GRANT SELECT ON CUTRI TO THEODOIKQ;
+GRANT SELECT ON UNGCUVIEN TO THEODOIKQ;
+
+/*------------------------------------------------------------------------
+    Cấp quyền cho role GIAMSAT
+*/------------------------------------------------------------------------
+GRANT SELECT ON CHINHANH TO GIAMSAT;
+GRANT SELECT ON DONVI TO GIAMSAT;
+GRANT SELECT ON THANHVIEN TO GIAMSAT;
+GRANT SELECT ON BTC TO GIAMSAT;
+GRANT SELECT ON TO_LAP TO GIAMSAT;
+GRANT SELECT ON GIAMSAT TO GIAMSAT;
+GRANT SELECT ON UNGCUVIEN TO GIAMSAT;
+GRANT SELECT ON THEODOI TO GIAMSAT;
+GRANT SELECT ON THONGBAO TO GIAMSAT;
+GRANT SELECT ON PHIEUBAU TO GIAMSAT;
+GRANT SELECT ON CUTRI TO GIAMSAT;
 
 /*------------------------------------------------------------------------
     Tạo user demo trong hệ thống

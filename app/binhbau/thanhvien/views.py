@@ -11,7 +11,7 @@ def user_redirect(request):
 
     # Nếu là superuser login vào trang admin
     if current_user.username == 'QUANTRI':
-        return redirect('/quanly/btc/')
+        return redirect('/admin/')
 
     role = UserRole.objects.get(grantee=current_user.username)
     if role.granted_role == 'NHANVIEN':

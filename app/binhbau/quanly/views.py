@@ -31,7 +31,7 @@ def home_btc(request):
     }
     return render(request, 'btc/btc.html', context)
 
-def home_tolap():
+def home_tolap(request):
     return None
 
 def home_giamsat():
