@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA851DF0-1F39-0F37-1E1A-3E0C9434CE5A" containerWithKeyObject="A662724C-9597-CA50-834A-C84C9691AB23" localFKIndex="EA39E3A8-4DDE-DD0B-65D9-CC24EF8DE89C" name="FK_GIAMSAT_THANHVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>FK_GIAMSAT_THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<referredTableLongName>QUANTRI.THANHVIEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>785B0526-715E-FC19-CC4E-BDB0E0636410</referredTableID>
+<keyObject>A0AB69E8-1376-37DC-5911-A7CB49D22D90</keyObject>
+<referredKeyID>A0AB69E8-1376-37DC-5911-A7CB49D22D90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MA_THANHVIEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66D8A0BC-7C09-FBDB-A48B-DF3EFADB4D50" name="GIAMSAT">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>A662724C-9597-CA50-834A-C84C9691AB23</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MA GIAMSAT" id="442B2E68-0C40-0BE3-3882-2F44708880DD">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>7D849AAA-4B1D-05E8-1B1E-5F4212D6C185</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<referedAttribute>BC973F26-5713-1D19-921C-68F2189BA892</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOTEN" id="E2EAAB4B-C945-BC79-4EEA-31BE40506F7D">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>D2D37FB6-06BF-AA37-66D3-86F5F612ACDF</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMSINH" id="2A3C6A35-54E3-871A-EBF7-D91C6F5AA74A">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>80DF28E7-3407-72C5-C229-3C242CEB64CE</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GIOITINH" id="9EEA9894-109B-6E29-7336-575006743F9C">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>DA283F45-1F32-8E67-6EAC-1A1E3E8A3F9E</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BD2848C-EE53-29F2-AEDF-6DC3FC027349" name="PK GIAMSAT">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>EE458870-6B07-4A71-C09A-CFB2139F6593</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>442B2E68-0C40-0BE3-3882-2F44708880DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

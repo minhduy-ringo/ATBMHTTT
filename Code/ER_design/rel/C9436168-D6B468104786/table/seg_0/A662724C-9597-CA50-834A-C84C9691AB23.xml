@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A662724C-9597-CA50-834A-C84C9691AB23" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="GIAMSAT">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>GIAMSAT</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_GIAMSAT" id="A909A0F1-17EF-C469-F4F6-29CA9B9B1021">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>GIAMSAT</sourceObjSchema>
+<sourceObjName>MA_GIAMSAT</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA851DF0-1F39-0F37-1E1A-3E0C9434CE5A" referredColumn="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</associations>
+</Column>
+<Column name="HOTEN" id="D2D37FB6-06BF-AA37-66D3-86F5F612ACDF">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>GIAMSAT</sourceObjSchema>
+<sourceObjName>HOTEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMSINH" id="80DF28E7-3407-72C5-C229-3C242CEB64CE">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>GIAMSAT</sourceObjSchema>
+<sourceObjName>NAMSINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIOITINH" id="DA283F45-1F32-8E67-6EAC-1A1E3E8A3F9E">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>GIAMSAT</sourceObjSchema>
+<sourceObjName>GIOITINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE458870-6B07-4A71-C09A-CFB2139F6593" name="PK_GIAMSAT">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_GIAMSAT</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A909A0F1-17EF-C469-F4F6-29CA9B9B1021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C117F2E4-4182-4A89-F4D7-69D3F51E68BA" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_GIAMSAT">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_GIAMSAT</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A909A0F1-17EF-C469-F4F6-29CA9B9B1021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA39E3A8-4DDE-DD0B-65D9-CC24EF8DE89C" name="FK_GIAMSAT_THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A909A0F1-17EF-C469-F4F6-29CA9B9B1021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

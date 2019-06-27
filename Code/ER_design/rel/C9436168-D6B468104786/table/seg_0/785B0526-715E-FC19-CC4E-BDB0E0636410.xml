@@ -1,0 +1,257 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="785B0526-715E-FC19-CC4E-BDB0E0636410" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="THANHVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_THANHVIEN" id="FF9032EE-543F-AD55-4C28-7B4630CE2362">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>MA_THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>1000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="HOTEN" id="0E353F50-BD8B-4F3D-5554-0289C78CFDD5">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>HOTEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIOITINH" id="7031804C-FBC3-0A22-EDA4-96F532538950">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>GIOITINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUEQUAN" id="701AA086-DB15-FA45-B91D-AC1C23AF9916">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>QUEQUAN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMSINH" id="5DF8A45A-296F-83C5-EA86-765F7D1B46AF">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>NAMSINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUOCTICH" id="48928967-1C15-6F82-A25F-D84B471371F8">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>QUOCTICH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIACHI" id="878835D5-BB9C-9CBF-AC18-9FE15EDCCA9D">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>DIACHI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DONVI" id="C9DF0F88-C41F-A719-92D5-DD30B9F1981F">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FA0A6D2-2F3B-3AD0-BC22-D8363437D9BF" referredColumn="58EE4C27-1A09-C519-3551-A30ECAC80460"/>
+</associations>
+</Column>
+<Column name="CHINHANH" id="F815F9B3-04C4-B10B-22FC-34CC05921DDD">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>CHINHANH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74802C6A-D130-13ED-83E7-454F3600D12E" referredColumn="EBFC4644-BCF6-1F31-5084-5FC3D8310074"/>
+</associations>
+</Column>
+<Column name="LUONG" id="FB6FB05F-2D0D-E436-74B4-0A220A09523E">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>LUONG</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONGTAC" id="7541A6B7-8446-9132-8DFC-52490F8C981D">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>CONGTAC</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMNGHI" id="DF05E000-ECC1-A375-E627-A520D627DF01">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THANHVIEN</sourceObjSchema>
+<sourceObjName>TAMNGHI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0AB69E8-1376-37DC-5911-A7CB49D22D90" name="PK_THANHVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C82E1974-75CC-41C1-239D-E95DE83C2D1D" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_THANHVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="411A90D1-F9B2-AAA0-C697-E6C563150A20" name="FK_THANHVIEN_CHINHANH">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F815F9B3-04C4-B10B-22FC-34CC05921DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28F2C8F3-D638-3BFA-084C-D582F1519B43" name="FK_THANHVIEN_DONVI">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9DF0F88-C41F-A719-92D5-DD30B9F1981F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

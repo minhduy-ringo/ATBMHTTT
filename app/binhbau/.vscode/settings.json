@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "C:\\Users\\minhd\\Anaconda3\\envs\\ATBMHTTT\\python.exe"
+    "python.pythonPath": "C:\\Users\\minhd\\Anaconda3\\envs\\ATBMHTTT\\python.exe",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ]
 }

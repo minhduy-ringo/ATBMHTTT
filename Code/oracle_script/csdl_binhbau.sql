@@ -68,7 +68,6 @@ Create table UNGCUVIEN
     MA_UCV NUMBER,
     HOTEN varchar2(50),
     NAMSINH VARCHAR2(4),
-    CHUCVU varchar2(50),
     DONVI varchar2(20),
     CONSTRAINT PK_UNGCUVIEN PRIMARY KEY (MA_UCV )
 );

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="372B818B-3942-7146-4960-600B37C4E38F" name="UNGCUVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>BA767E9D-27AC-4AFC-207F-E684ABD30319</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HOTEN" id="D6E8D980-36F9-CE8E-ED66-AB375D293BBD">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>C4B066A8-2773-BCA3-8E06-C05BE5E7B3E9</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMSINH" id="2BDEADFC-6576-67BB-A8BC-32E79BD8BE68">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>2FE5078B-2A06-F540-8FF6-45064F2F500B</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CHUCVU" id="EA137979-4740-E43D-268C-52A04EEC2737">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>B6C28DDA-9FAD-B6B8-5B29-58C9C0E31197</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DONVI" id="4F097AAE-9075-FCF3-59B2-E00D10E243A3">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>BD04AB76-A3F6-3455-34BF-8A61A7FC9806</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A86A06E8-FF63-64C2-8B35-F0FBDFC0DDEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDB8973F-1EEC-89C2-549D-CAA583D3DBB2" name="PK UNGCUVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>04BAD82F-DCDE-B086-3BB0-9CE6C4330A7B</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

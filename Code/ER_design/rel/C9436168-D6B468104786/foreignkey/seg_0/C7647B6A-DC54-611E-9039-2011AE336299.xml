@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7647B6A-DC54-611E-9039-2011AE336299" containerWithKeyObject="DA7FAB2E-AEC2-69BB-D3EB-70E1BC448C3D" localFKIndex="CC2DF856-C140-48DF-9871-1D1981331343" name="FK_BTC_THANHVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>FK_BTC_THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<referredTableLongName>QUANTRI.THANHVIEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>785B0526-715E-FC19-CC4E-BDB0E0636410</referredTableID>
+<keyObject>A0AB69E8-1376-37DC-5911-A7CB49D22D90</keyObject>
+<referredKeyID>A0AB69E8-1376-37DC-5911-A7CB49D22D90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MA_THANHVIEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

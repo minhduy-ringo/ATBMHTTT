@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9BAB71E2-CEF8-8874-9CD5-C263E66F0B92" containerWithKeyObject="B5A03DC6-A59F-B143-6BEE-667B94840BF9" localFKIndex="6F2A4375-2242-F82B-F62F-66A93C4376F2" name="FK_TOLAP_THANHVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>FK_TOLAP_THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<referredTableLongName>QUANTRI.THANHVIEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>785B0526-715E-FC19-CC4E-BDB0E0636410</referredTableID>
+<keyObject>A0AB69E8-1376-37DC-5911-A7CB49D22D90</keyObject>
+<referredKeyID>A0AB69E8-1376-37DC-5911-A7CB49D22D90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MA_THANHVIEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

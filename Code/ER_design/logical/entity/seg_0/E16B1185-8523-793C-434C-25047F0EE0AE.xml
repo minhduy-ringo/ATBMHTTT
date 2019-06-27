@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E16B1185-8523-793C-434C-25047F0EE0AE" name="THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>785B0526-715E-FC19-CC4E-BDB0E0636410</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MA THANHVIEN" id="BC973F26-5713-1D19-921C-68F2189BA892">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>FF9032EE-543F-AD55-4C28-7B4630CE2362</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOTEN" id="2DA3075A-F87F-7D5F-781A-2D605E693A08">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>0E353F50-BD8B-4F3D-5554-0289C78CFDD5</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GIOITINH" id="88CC8601-DAA2-AD54-9A15-FE7A8994EC22">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>7031804C-FBC3-0A22-EDA4-96F532538950</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUEQUAN" id="7B599F72-6188-4351-612C-90086EB538FE">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>701AA086-DB15-FA45-B91D-AC1C23AF9916</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMSINH" id="A133B54A-2FFC-7900-0A19-98255194FDAE">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>5DF8A45A-296F-83C5-EA86-765F7D1B46AF</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUOCTICH" id="F2C6F638-F20A-7EC5-36EA-890C465D9AB1">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>48928967-1C15-6F82-A25F-D84B471371F8</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIACHI" id="62D395B5-3B08-D8B3-14CD-9589E75E4448">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>878835D5-BB9C-9CBF-AC18-9FE15EDCCA9D</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DONVI" id="6C2D4060-178F-FF23-3965-439BD6603EE0">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>E24DC764-5B16-E383-8E05-80E7B15101A8</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A86A06E8-FF63-64C2-8B35-F0FBDFC0DDEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CHINHANH" id="51DC1036-B553-5DEA-FF4B-5EB1170B6312">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>4586C3A7-AF66-F234-CEA4-39640103DEBD</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4BC18571-F42C-C51E-838B-DDF944D76AD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LUONG" id="1B5095D1-21D6-22C5-056B-5E778082A96C">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>FB6FB05F-2D0D-E436-74B4-0A220A09523E</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONGTAC" id="468345D8-D559-0520-DF87-19DB1D724914">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>7541A6B7-8446-9132-8DFC-52490F8C981D</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TAMNGHI" id="4078B3BC-7B2F-5304-78A8-E4D024D68233">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>DF05E000-ECC1-A375-E627-A520D627DF01</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="114DF935-DE7C-3BF4-B8C0-DDF4D0B8D844" name="PK THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>A0AB69E8-1376-37DC-5911-A7CB49D22D90</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC973F26-5713-1D19-921C-68F2189BA892</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

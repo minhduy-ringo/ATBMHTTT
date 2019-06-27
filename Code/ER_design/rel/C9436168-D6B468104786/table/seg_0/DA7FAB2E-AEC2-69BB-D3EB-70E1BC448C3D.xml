@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA7FAB2E-AEC2-69BB-D3EB-70E1BC448C3D" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="BTC">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>BTC</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_BTC" id="0504855F-307B-289A-D4C6-9E601F99CF14">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>BTC</sourceObjSchema>
+<sourceObjName>MA_BTC</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7647B6A-DC54-611E-9039-2011AE336299" referredColumn="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</associations>
+</Column>
+<Column name="HOTEN" id="9B284DC1-DBF2-8800-CDF6-CB1168E0EA19">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>BTC</sourceObjSchema>
+<sourceObjName>HOTEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMSINH" id="03A10156-C067-C442-0CE9-8B750133EB7A">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>BTC</sourceObjSchema>
+<sourceObjName>NAMSINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIOITINH" id="C61F03C9-2EFE-19A7-4D1A-3D4D7B076B67">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>BTC</sourceObjSchema>
+<sourceObjName>GIOITINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98CAD3F4-CDD6-7CF4-BEA5-A81111C513BF" name="PK_BTC">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_BTC</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0504855F-307B-289A-D4C6-9E601F99CF14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E01FFAF4-B463-5C5D-EDCB-BE42DD27FB0D" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_BTC">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_BTC</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0504855F-307B-289A-D4C6-9E601F99CF14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC2DF856-C140-48DF-9871-1D1981331343" name="FK_BTC_THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0504855F-307B-289A-D4C6-9E601F99CF14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

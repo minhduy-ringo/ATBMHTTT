@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AD3DE91-4807-7CAF-A6B4-D16BC21ED2BD" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="CHINHANH">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>CHINHANH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_CHINHANH" id="EBFC4644-BCF6-1F31-5084-5FC3D8310074">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>CHINHANH</sourceObjSchema>
+<sourceObjName>MA_CHINHANH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TENCHINHANH" id="96AB89AE-8472-A3B9-D96A-CE0376E0BFB0">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>CHINHANH</sourceObjSchema>
+<sourceObjName>TENCHINHANH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D36A570D-5886-1248-B002-5CB4484867FD" name="PK_CHINHANH">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_CHINHANH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBFC4644-BCF6-1F31-5084-5FC3D8310074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A13AC854-3905-CDA0-F550-FED2FC8038FA" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_CHINHANH">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_CHINHANH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBFC4644-BCF6-1F31-5084-5FC3D8310074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

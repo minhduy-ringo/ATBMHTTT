@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_UNGCUVIEN_DONVI" directorySegmentName="seg_0" id="BD04AB76-A3F6-3455-34BF-8A61A7FC9806">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>BA016997-7B22-5DDA-F482-A39BC4524EF1</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<sourcePk>54AB1007-D68D-28EC-5166-3FD2D413049A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12F3EACB-EC93-2D74-A5D4-279A638A87AA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>372B818B-3942-7146-4960-600B37C4E38F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

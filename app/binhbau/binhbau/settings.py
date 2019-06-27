@@ -31,15 +31,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'binhbau.apps.SuitConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'thanhvien.apps.ThanhvienConfig',
-    # 'quanly.apps.QuanlyConfig',
-    # 'bophieu.apps.BophieuConfig',
+    'thanhvien',
+    'quanly',
+    'django_tables2',
 ]
 
 MIDDLEWARE = [
@@ -129,7 +130,7 @@ STATICFILES_DIRS = [
 ]
 
 # Redirect after login
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'redirect'
 LOGOUT_REDIRECT_URL = 'home'
 
 # Custom user authentication

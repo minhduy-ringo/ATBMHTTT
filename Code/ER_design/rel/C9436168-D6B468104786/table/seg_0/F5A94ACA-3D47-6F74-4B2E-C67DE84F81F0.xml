@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5A94ACA-3D47-6F74-4B2E-C67DE84F81F0" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="THEODOI">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>THEODOI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_THEODOI" id="1A0F427F-DCB5-4BB2-0781-491150DDA640">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THEODOI</sourceObjSchema>
+<sourceObjName>MA_THEODOI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF8FC1E0-F486-7BEA-5FD8-6D586EBC4081" referredColumn="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</associations>
+</Column>
+<Column name="HOTEN" id="207B2F80-0E28-1103-D3A9-8FCBA629AA17">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THEODOI</sourceObjSchema>
+<sourceObjName>HOTEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMSINH" id="679DCE02-A421-5C52-5E20-23385D08417D">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THEODOI</sourceObjSchema>
+<sourceObjName>NAMSINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIOITINH" id="39325CFF-1371-19C3-1CB3-A2590CF43171">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>THEODOI</sourceObjSchema>
+<sourceObjName>GIOITINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F198CF0A-12D0-4240-3880-B8DCAA2526B9" name="PK_THEODOI">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_THEODOI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A0F427F-DCB5-4BB2-0781-491150DDA640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DB6D13A-BCFC-2F90-5E47-E7A4E65222A0" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_THEODOI">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_THEODOI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A0F427F-DCB5-4BB2-0781-491150DDA640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF9182D2-3FAD-F5D7-C388-9D3D99FE21DF" name="FK_THEODOI_THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A0F427F-DCB5-4BB2-0781-491150DDA640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

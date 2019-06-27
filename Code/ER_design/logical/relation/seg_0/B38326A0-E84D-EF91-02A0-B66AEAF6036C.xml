@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PHIEUBAU_THANHVIEN" directorySegmentName="seg_0" id="B38326A0-E84D-EF91-02A0-B66AEAF6036C">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>6BFC75A8-F3B1-1125-26B1-EAF9AF38F6B9</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<sourcePk>114DF935-DE7C-3BF4-B8C0-DDF4D0B8D844</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E16B1185-8523-793C-434C-25047F0EE0AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D972B46B-7B27-012A-768C-5D3C0DDB2E6A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

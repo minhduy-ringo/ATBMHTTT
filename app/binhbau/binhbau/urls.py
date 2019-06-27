@@ -19,9 +19,14 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.views.generic.base import TemplateView # new
 
+from thanhvien.views import user_redirect, home
+from quanly.views import home_btc, home_tolap, home_giamsat
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
     path('thanhvien/', include('django.contrib.auth.urls')),
+    path('redirect/', user_redirect, name='redirect'),
+    path('nhanvien/home/', home, name='nv'),
+    path('quanly/', include('quanly.urls')),
 ]

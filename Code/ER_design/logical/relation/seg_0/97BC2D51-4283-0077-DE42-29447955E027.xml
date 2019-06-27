@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TOLAP_THANHVIEN" directorySegmentName="seg_0" id="97BC2D51-4283-0077-DE42-29447955E027">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>9BAB71E2-CEF8-8874-9CD5-C263E66F0B92</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<sourcePk>114DF935-DE7C-3BF4-B8C0-DDF4D0B8D844</sourcePk>
+<dominantRole>E16B1185-8523-793C-434C-25047F0EE0AE</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E16B1185-8523-793C-434C-25047F0EE0AE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>808918EA-8050-C599-699E-40981BDA94D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

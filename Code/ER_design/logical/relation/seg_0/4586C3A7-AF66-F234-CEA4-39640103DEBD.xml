@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_THANHVIEN_CHINHANH" directorySegmentName="seg_0" id="4586C3A7-AF66-F234-CEA4-39640103DEBD">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>74802C6A-D130-13ED-83E7-454F3600D12E</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<sourcePk>FB266A4E-B75E-E99B-1ED7-BD15F3E2AAB3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE93A469-7692-2550-C939-7F1DB977640C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E16B1185-8523-793C-434C-25047F0EE0AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

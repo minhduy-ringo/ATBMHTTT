@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_THANHVIEN_DONVI" directorySegmentName="seg_0" id="E24DC764-5B16-E383-8E05-80E7B15101A8">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:11:56 UTC</createdTime>
+<generatorID>5FA0A6D2-2F3B-3AD0-BC22-D8363437D9BF</generatorID>
+<ownerDesignName>ER_design</ownerDesignName>
+<engineerTo>
+<item key="C9436168-5C3A-2DE9-07F2-D6B468104786" value="true"/>
+</engineerTo>
+<sourcePk>54AB1007-D68D-28EC-5166-3FD2D413049A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12F3EACB-EC93-2D74-A5D4-279A638A87AA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E16B1185-8523-793C-434C-25047F0EE0AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AEC0E30-0306-56BD-3E79-DFECE39DF2C5" containerWithKeyObject="B5A03DC6-A59F-B143-6BEE-667B94840BF9" localFKIndex="C8C2292E-04DD-15DD-4901-995079E4F2AC" name="FK_TOLAP_DONVI">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>FK_TOLAP_DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<referredTableLongName>QUANTRI.DONVI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4BE6BC5-61D1-86D6-6ED6-2CD593142401</referredTableID>
+<keyObject>85B42765-8175-AC77-5FCF-574488B06416</keyObject>
+<referredKeyID>85B42765-8175-AC77-5FCF-574488B06416</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MA_DONVI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

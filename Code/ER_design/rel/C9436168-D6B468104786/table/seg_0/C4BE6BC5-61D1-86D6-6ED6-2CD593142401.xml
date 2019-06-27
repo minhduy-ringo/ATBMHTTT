@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4BE6BC5-61D1-86D6-6ED6-2CD593142401" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="DONVI">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_DONVI" id="58EE4C27-1A09-C519-3551-A30ECAC80460">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>DONVI</sourceObjSchema>
+<sourceObjName>MA_DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TENDONVI" id="7747EC9A-BE3A-D63C-0750-F12196D47FDD">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>DONVI</sourceObjSchema>
+<sourceObjName>TENDONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRUONGDONVI" id="7FCC5BE5-65F8-07C2-E450-CE2853E6C64D">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>DONVI</sourceObjSchema>
+<sourceObjName>TRUONGDONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7AB9873-2DC4-CC13-3E4D-BE5BAC683DE4" referredColumn="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85B42765-8175-AC77-5FCF-574488B06416" name="PK_DONVI">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EE4C27-1A09-C519-3551-A30ECAC80460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD9B78F1-E1B2-4961-C506-DB58CE846391" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_DONVI">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EE4C27-1A09-C519-3551-A30ECAC80460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0C38512-5ED2-CF6D-5D0E-91A9E0099DC4" name="FK_DONVI_THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FCC5BE5-65F8-07C2-E450-CE2853E6C64D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

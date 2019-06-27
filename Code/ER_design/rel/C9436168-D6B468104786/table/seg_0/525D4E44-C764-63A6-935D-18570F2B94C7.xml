@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="525D4E44-C764-63A6-935D-18570F2B94C7" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PHIEUBAU">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PHIEUBAU</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_PHIEUBAU" id="A16B2623-73C1-0F5A-9437-DC65DFBE4D37">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>PHIEUBAU</sourceObjSchema>
+<sourceObjName>MA_PHIEUBAU</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="MA_THANHVIEN" id="7DD59136-5CC4-C05D-E33D-3B38CE843999">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>PHIEUBAU</sourceObjSchema>
+<sourceObjName>MA_THANHVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BFC75A8-F3B1-1125-26B1-EAF9AF38F6B9" referredColumn="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</associations>
+</Column>
+<Column name="UCV1" id="7691BA75-7AC1-8C0B-66EA-0514ABEA0338">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>PHIEUBAU</sourceObjSchema>
+<sourceObjName>UCV1</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UCV2" id="7C462E31-C607-500F-8DF9-3B1F6911FBF1">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>PHIEUBAU</sourceObjSchema>
+<sourceObjName>UCV2</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UCV3" id="E71AF89D-4716-47B5-30AB-72CFA23F5D1C">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>PHIEUBAU</sourceObjSchema>
+<sourceObjName>UCV3</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E95DE8EC-0B40-B63C-ABCE-EBA8285E8AA5" name="PK_PHIEUBAU">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_PHIEUBAU</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A16B2623-73C1-0F5A-9437-DC65DFBE4D37"/>
+<colUsage columnID="7DD59136-5CC4-C05D-E33D-3B38CE843999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7212F2A-DF96-16DD-3C27-C254BEFBD45B" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_PHIEUBAU">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_PHIEUBAU</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A16B2623-73C1-0F5A-9437-DC65DFBE4D37"/>
+<colUsage columnID="7DD59136-5CC4-C05D-E33D-3B38CE843999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD5B19AD-88D3-54E7-63B2-E1CD5DC89F09" name="FK_PHIEUBAU_THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD59136-5CC4-C05D-E33D-3B38CE843999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

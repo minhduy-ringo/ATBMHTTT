@@ -1,14 +1,14 @@
 <!-- templates/home.html -->
 {% extends 'base.html' %}
 
-{% block title %}Home{% endblock %}
+<title>Trang chủ</title>
 
 {% block content %}
 {% if user.is_authenticated %}
-  Hi {{ user.username }}!
-  <p><a href="{% url 'login' %}">logout</a></p>
+  <p>Hi {{ user.username }}</p>
+  <a href="{% url 'logout' %}" class="hero-cta">Đăng xuất</a>
 {% else %}
   <p>You are not logged in</p>
-  <a href="{% url 'login' %}">login</a> |
+  <a href="{% url 'login' %}" class="hero-cta">Đăng nhập</a>
 {% endif %}
 {% endblock %}

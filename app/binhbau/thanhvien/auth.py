@@ -6,7 +6,7 @@ import cx_Oracle
 class OracleAuthBackend:
     """
     """
-    def authenticate(self, request, username = None, password = None):
+    def authenticate(self, request = None, username = None, password = None):
         # Tạo chuỗi dsn để kết nối với oracle db
         dsnStr = cx_Oracle.makedsn(
             settings.ORACLE_HOST,

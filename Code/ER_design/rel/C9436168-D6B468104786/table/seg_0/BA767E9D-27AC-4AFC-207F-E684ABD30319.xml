@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA767E9D-27AC-4AFC-207F-E684ABD30319" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="UNGCUVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>UNGCUVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_UCV" id="F905A3CE-387E-EE75-F9B3-A8D2DF5C9388">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>UNGCUVIEN</sourceObjSchema>
+<sourceObjName>MA_UCV</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D2CD6DB-55F4-24E0-E32E-BA738C5747AE" referredColumn="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</associations>
+</Column>
+<Column name="HOTEN" id="C4B066A8-2773-BCA3-8E06-C05BE5E7B3E9">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>UNGCUVIEN</sourceObjSchema>
+<sourceObjName>HOTEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMSINH" id="2FE5078B-2A06-F540-8FF6-45064F2F500B">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>UNGCUVIEN</sourceObjSchema>
+<sourceObjName>NAMSINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHUCVU" id="B6C28DDA-9FAD-B6B8-5B29-58C9C0E31197">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>UNGCUVIEN</sourceObjSchema>
+<sourceObjName>CHUCVU</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DONVI" id="B208C1F0-0C3D-A7D3-56CA-0A22D9D8031F">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>UNGCUVIEN</sourceObjSchema>
+<sourceObjName>DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA016997-7B22-5DDA-F482-A39BC4524EF1" referredColumn="58EE4C27-1A09-C519-3551-A30ECAC80460"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04BAD82F-DCDE-B086-3BB0-9CE6C4330A7B" name="PK_UNGCUVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_UNGCUVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F905A3CE-387E-EE75-F9B3-A8D2DF5C9388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D18AACD-B716-290C-CB6D-9A418C7FE61F" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_UNGCUVIEN">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_UNGCUVIEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F905A3CE-387E-EE75-F9B3-A8D2DF5C9388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E55BBAA-A6FA-C4F5-E116-97C2278CBE68" name="FK_UNGCUVIEN_DONVI">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B208C1F0-0C3D-A7D3-56CA-0A22D9D8031F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="403B04BD-E065-62FD-C5A6-FB26F824D722" name="FK_UNGCUVIEN_THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F905A3CE-387E-EE75-F9B3-A8D2DF5C9388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

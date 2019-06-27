@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5A03DC6-A59F-B143-6BEE-667B94840BF9" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="TO_LAP">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>TO_LAP</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:48 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MA_TOLAP" id="F62A9671-AA18-77EA-7B8F-C7B84EAD2AA0">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>TO_LAP</sourceObjSchema>
+<sourceObjName>MA_TOLAP</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BAB71E2-CEF8-8874-9CD5-C263E66F0B92" referredColumn="FF9032EE-543F-AD55-4C28-7B4630CE2362"/>
+</associations>
+</Column>
+<Column name="HOTEN" id="3CC3233C-B938-7BDC-FC4D-36348F92114B">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>TO_LAP</sourceObjSchema>
+<sourceObjName>HOTEN</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMSINH" id="8BA0CB87-294E-4CBC-0E7A-E2F98B2BABB8">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>TO_LAP</sourceObjSchema>
+<sourceObjName>NAMSINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIOITINH" id="5A275057-FD42-4B10-AAE8-38BD4ED379F7">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>TO_LAP</sourceObjSchema>
+<sourceObjName>GIOITINH</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DONVI" id="3007D68C-FE09-4624-E3A9-DD52823F9806">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>TO_LAP</sourceObjSchema>
+<sourceObjName>DONVI</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AEC0E30-0306-56BD-3E79-DFECE39DF2C5" referredColumn="58EE4C27-1A09-C519-3551-A30ECAC80460"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00249188-55C2-002B-0F4E-6DF3AB928DD5" name="PK_TO_LAP">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_TO_LAP</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F62A9671-AA18-77EA-7B8F-C7B84EAD2AA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ACB0E7F-46FE-86E5-F211-AE54420DC47E" schemaObject="6E4BAFFA-A312-4C82-D5D3-80FFEDFE407E" name="PK_TO_LAP">
+<sourceConnName>QUANTRI</sourceConnName>
+<sourceObjSchema>QUANTRI</sourceObjSchema>
+<sourceObjName>PK_TO_LAP</sourceObjName>
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F62A9671-AA18-77EA-7B8F-C7B84EAD2AA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8C2292E-04DD-15DD-4901-995079E4F2AC" name="FK_TOLAP_DONVI">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3007D68C-FE09-4624-E3A9-DD52823F9806"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F2A4375-2242-F82B-F62F-66A93C4376F2" name="FK_TOLAP_THANHVIEN">
+<createdBy>minhd</createdBy>
+<createdTime>2019-06-23 06:02:49 UTC</createdTime>
+<ownerDesignName>ER_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F62A9671-AA18-77EA-7B8F-C7B84EAD2AA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
