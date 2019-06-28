@@ -28,3 +28,6 @@ select grantee,granted_role,admin_option,con_id
         from cdb_users 
         where default_tablespace = 'BINHBAU')
     order by grantee;
+
+--Xem quyền của role và user
+select * from user_tab_privs;
