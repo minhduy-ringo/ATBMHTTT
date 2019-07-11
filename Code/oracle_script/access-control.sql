@@ -80,28 +80,29 @@ begin
     --Kiểm tra là QUANTRI hoặc người dùng TOLAP
     select granted_role into user_role from BINHBAU_USER_ROLES where grantee = to_char(m_user) AND granted_role != 'NHANVIEN';
     if user = 'QUANTRI' or user_role = 'TOLAP' then
-        return '';
+        return stm := '';
+    else
+        stm := 'MA_THANHVIEN = ' || m_user;
     end if;
-    
-    --Nếu là role khác
-    stm := 'MA_THANHVIEN = ' || m_user;
 
     return stm;
 end f_select_thanhvien;
+
+begin dbms_rls.drop_policy('QUANTRI','THANHVIEN','Xem_thanhvien'); end;
 
 BEGIN
     dbms_rls.add_policy (
         object_schema   => 'QUANTRI',
         object_name     => 'THANHVIEN',
-        policy_name     => 'Xem_thanhvien_donvi',
+        policy_name     => 'Xem_thanhvien',
         function_schema => 'QUANTRI',
-        policy_function => 'f_select_thanhvien_donvi',
+        policy_function => 'f_select_thanhvien',
         statement_types => 'select'
     );
 END;
 
 begin
-DBMS_RLS.ENABLE_POLICY('QUANTRI','THANHVIEN','Xem_thanhvien_donvi',true);
+DBMS_RLS.ENABLE_POLICY('QUANTRI','THANHVIEN','Xem_thanhvien',true);
 end;
 
 /*

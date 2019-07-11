@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.models import Group
 
-from .models import Thanhvien, Donvi, Chinhanh, UserRole, Roles
+from .models import *
 
 #
 class ThanhVienAdmin(admin.ModelAdmin):
@@ -30,6 +30,11 @@ admin.site.index_title = 'Bình bầu'
 admin.site.register(Thanhvien, ThanhVienAdmin)
 admin.site.register(Donvi)
 admin.site.register(Chinhanh)
+admin.site.register(Giamsat)
+admin.site.register(Btc)
+admin.site.register(Theodoi)
+admin.site.register(ToLap)
+admin.site.register(Ungcuvien)
 admin.site.register(UserRole, UserRoleAdmin)
 admin.site.register(Roles, RolesAdmin)
 

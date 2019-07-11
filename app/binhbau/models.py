@@ -160,11 +160,11 @@ class Giamsat(models.Model):
 
 
 class Phieubau(models.Model):
-    ma_phieubau = models.FloatField(primary_key=True)
-    ma_thanhvien = models.ForeignKey('Thanhvien', models.DO_NOTHING, db_column='ma_thanhvien')
-    ucv1 = models.FloatField(blank=True, null=True)
-    ucv2 = models.FloatField(blank=True, null=True)
-    ucv3 = models.FloatField(blank=True, null=True)
+    ma_phieubau = models.IntegerField(primary_key=True)
+    ma_thanhvien = models.IntegerField('Thanhvien', models.DO_NOTHING, db_column='ma_thanhvien')
+    ucv1 = models.CharField(max_length=100,blank=False)
+    ucv2 = models.CharField(max_length=100,blank=False)
+    ucv3 = models.CharField(max_length=100,blank=False)
 
     class Meta:
         managed = False
